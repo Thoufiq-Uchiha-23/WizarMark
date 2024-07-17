@@ -3,7 +3,7 @@ import { Stylish } from "next/font/google"
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
-import Navbar from "@/components/navbar";
+// import Navbar from "@/components/navbar";
 import { Separator } from "@/components/ui/separator";
 
 const stylish = Stylish({
@@ -31,7 +31,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Navbar />
+            {/* <Navbar /> */}
             <Separator />
             {children}
             <Toaster />
